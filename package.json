@@ -1,0 +1,31 @@
+{
+  "name": "distube-example",
+  "version": "1.0.0",
+  "description": "DisTube example music bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm i && npm i ffmpeg-static --save && node index.js"
+  },
+  "engines": {
+    "node": "12.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/skick1234/DisTube-Example.git"
+  },
+  "author": "Skick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skick1234/DisTube-Example/issues"
+  },
+  "homepage": "https://github.com/skick1234/DisTube-Example#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.3.1",
+    "distube": "^2.8.6",
+    "express": "^4.17.1",
+    "ffmpeg-static": "^4.2.7",
+    "keyv": "^4.0.3",
+    "mongoose": "^5.10.15"
+  }
+}
